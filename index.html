@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dom Manipulasi</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+
+  <h1 id="judul">My Profile </h1><p2>Martin Pasaribu</p2></body></br>
+  
+
+  <img src="./foto/foto1.jpeg" width="50%" height="50%"></body>
+  <div id="container">
+        <button onclick="tampil_rp()">Riwayat Pendidikan</button>
+
+   <div id="hasil" ></div>       
+    <button onclick="tampil_p()">Penghargaan</button>
+  <div id="hasil2" ></div>
+
+   <script>
+
+    function tampil_rp() {
+        document.getElementById("hasil").innerHTML =  "<ul> <li> SD 1 Candimas  </li> <li> SMP Yadika Natar  </li> <li> SMA 1 Natar </li> <li> Kuliah Institut Teknologi Sumatera </li></ul>";
+    }
+    function tampil_p()  {
+        document.getElementById("hasil2").innerHTML = "<ul> <li> Sertifikat Runer Up Airforce  </li> <li> Sertifikat Two Up Point Swiming  </li></ul>";
+    }
+   
+</script>         
+        <ul>
+            <h3> Sosial Media </h3>  
+              <li><a href="https://www.instagram.com/?hl=id">Instagram</a></li>
+              <li><a href="https://id-id.facebook.com/">Facebook</a></li>
+              <li><a href="https://github.com/">GitHub</a></li>
+        </ul>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>

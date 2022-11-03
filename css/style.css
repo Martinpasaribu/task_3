@@ -1,0 +1,70 @@
+* { 
+    border: 1px rgb(42, 202, 109); 
+    padding: 15px; 
+    margin: 15px; 
+    background-color: rgb(255, 255, 255)
+}
+html { 
+  margin: 0;
+  padding: 0;
+}
+body { 
+  max-width: 600px;
+  margin: 22px auto;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  background-color:rgb(42, 202, 109)
+}
+
+h1{ 
+    text-align:left;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+   color: rgb(255, 255, 255);
+    background-image: url("../foto/foto3.jpg")
+}
+h3{ 
+    text-align: center;
+    background-color: rgb(53, 45, 43);
+    color: rgb(255, 255, 255)
+}
+img{
+    background-image: url("../foto/foto5.jpg")
+}
+
+p{
+    background-color:rgb(255, 255, 255)
+}
+p2{
+    background-image: url("../foto/foto3.jpg");
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    size: 12px;
+    font-weight: bold;
+}
+div{
+    background-color:rgb(42, 202, 109);
+  
+}
+button{
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("../foto/foto5.jpg")
+}
+ul{
+    background-image: url("../foto/foto5.jpg")
+}
+li{color:rgb(255, 255, 255);
+    background-color:rgb(55, 53, 50)
+}
+a{
+    color:rgb(255, 255, 255);
+    background-color:rgb(55, 53, 50)
+}
+
